@@ -11,7 +11,7 @@ from langchain.schema import SystemMessage, HumanMessage
 api_key = os.getenv("OPENAI_API_KEY")
 
 # LangChain LLMインスタンスを作成
-llm = ChatOpenAI(openai_api_key=api_key)
+llm = ChatOpenAI()
 
 # 専門家の種類を定義
 experts = {
