@@ -1,6 +1,6 @@
 import os
 import streamlit as st
-from langchain_community.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain.schema import SystemMessage, HumanMessage
 
 # APIキーの取得（CloudではSecrets、ローカルなら.env）
